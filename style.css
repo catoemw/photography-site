@@ -1,0 +1,39 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.cf:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+@font-face {
+	font-family: 'Camera Icons';
+	src: url(fonts/camera-icons.ttf);
+}
+
+.eyeball:before {
+	font-family: 'Camera Icons';
+	content: '\e600';
+}
+
+.shutter-speed:before {
+	font-family: 'Camera Icons';
+	content: '\e601';
+}
+
+.iso:before {
+	font-family: 'Camera Icons';
+	content: '\e602';
+}
+
+.camera:before {
+	font-family: 'Camera Icons';
+	content: '\e603';
+}
+
+.aperture:before {
+	font-family: 'Camera Icons';
+	content: '\e604';
+}
